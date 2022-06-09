@@ -20,7 +20,7 @@ const Home = () => {
     };
 
     return (
-        <div>
+        <div className='home'>
             {loading && "CARREGANDO..."}
             {list?.map((item, index) => (
                 <AlbumItem key={index} id={item.id} title={item.title} />

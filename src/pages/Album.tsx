@@ -41,10 +41,12 @@ const Album = () => {
     };
 
     return (
-        <div>
-            <button onClick={handleBackButton}>voltar</button>
+        <div className='album--item'>
+            <button className='back--btn' onClick={handleBackButton}>
+                Voltar
+            </button>
             {loading && "CARREGANDO..."}
-            <h1>{albumInfo.title}</h1>
+            <h1>{albumInfo.title.toUpperCase()}</h1>
             {list.map((item, index) => (
                 <PhotoItem key={index} data={item} />
             ))}

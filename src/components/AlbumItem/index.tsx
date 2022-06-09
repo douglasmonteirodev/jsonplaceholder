@@ -9,7 +9,7 @@ type Props = {
 const AlbumItem = ({ id, title }: Props) => {
     return (
         <Link to={`/album/${id}`} className='album'>
-            <h4>{title}</h4>
+            <h3>{title.toUpperCase()}</h3>
         </Link>
     );
 };

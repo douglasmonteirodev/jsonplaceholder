@@ -28,12 +28,14 @@ const Photo = () => {
     };
 
     return (
-        <div>
+        <div className='photo--item'>
             {loading && "Carregando..."}
             {photoInfo && (
                 <>
-                    <button onClick={handleBackButton}>Voltar</button>
-                    <p>{photoInfo.title}</p>
+                    <button className='back--btn' onClick={handleBackButton}>
+                        Voltar
+                    </button>
+                    <h2>{photoInfo.title.toUpperCase()}</h2>
                     <img src={photoInfo.url} alt={photoInfo.title} />
                 </>
             )}
