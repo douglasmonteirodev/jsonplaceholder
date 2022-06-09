@@ -1,19 +1,27 @@
-### Exercicio usando react-router-dom e axios
+#JSON PLACEHOLDER ALBUM
 
-### `npm start`
+## Projeto usando react-router-dom e axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## GitPage: https://douglasmonteirodev.github.io/jsonplaceholder/build/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Informações
 
-### `npm run build`
+### Objetivo desse projeto foi utilizar axios para obter dados da Api Json Placeholder 
+### Foi utilizado react router dom para configurar as rotas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Descrição
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Há uma página home onde será listado 100 albums`
+- `Cada album é clicavel, sendo o caminho uma seção de 50 fotos`
+- `Cada Foto é clicavel, e ao clicada ela será mostrada junto com seu titulo`
+- `Cada pagina terá um botão de voltar para pagina anterior`
+- `O Header da aplicação tem o caminho destino para a pagina home`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+# Douglas Monteiro ❤😎
+
+
+
+
+
